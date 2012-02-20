@@ -82,10 +82,6 @@ $(document).ready(function() {
             })(thumb, txt);
             
             reader.readAsDataURL(files[i]);
-            
-            //var reader = new FileReader();
-            //reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(image);
-            //reader.readAsDataURL(file);
         }
     }
 });
