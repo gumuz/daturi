@@ -1,0 +1,142 @@
+body {
+    background-image: url('../img/bg.png');
+    background-repeat: repeat-x;
+    font-family: 'Droid serif', serif;
+}
+
+#header {
+    height: 64px;
+}
+
+#header h1 {
+    color: white;
+}
+
+#header h1 a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid #39921b;
+}
+
+ul {
+    list-style: none;
+}
+
+#navi li {
+    display: inline;
+}
+
+#navi a {
+    color: grey;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#header a:hover {
+    color: white;
+    border-bottom: 3px solid #39921b; 
+}
+
+h1 {
+    font-family: 'Lobster', serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.14;
+}
+
+h2 {
+    font-family: 'Lobster', serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.14;
+    color: white;
+}
+
+
+.top {
+    height: 300px;
+    color: #DDD;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+.top a {
+    color: #39921b;
+    text-decoration: none;
+}
+
+.dropbox {
+    background-color: none;
+    border: 3px dashed #BBB;
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url('../img/image_add_grey.png');
+    background-repeat: no-repeat;
+    background-position:center; 
+    border-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+
+.dropbox-hover {
+    background-image: url('../img/image_add.png');
+    border: 3px dashed #39921b;
+}
+
+.dropbox-error {
+    background-image: url('../img/image_add.png');
+    border: 3px dashed red;
+}
+
+
+.data_url {
+    padding: 5px;
+    float: left;
+    width: 370px;
+    margin: 5px;
+    border-bottom: 1px dashed grey;
+}
+
+.data_url img {
+    border: 1px dashed grey;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 2px;
+    margin: 5px;
+}
+
+.data_url textarea {
+    width: 360px;
+    height: 100px;
+    border-top: 3px solid #39921b;
+}
+
+.data_url h4 {
+    color: #194d60;
+    font-weight: normal;
+    font-size: 14pt; 
+    margin-left: 50px;
+    line-height: 2.14;
+}
+
+.bottom h2 {
+    color: #194d60;
+    margin-top: 20px;
+}
